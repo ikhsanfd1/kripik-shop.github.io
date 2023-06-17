@@ -4,7 +4,14 @@
 ```
 npm install
 ```
-
+## Project setup
+```
+npm install -g @vue/cli
+```
+### Open CMD for starting Vue UI
+```
+vue ui
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
