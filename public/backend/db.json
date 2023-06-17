@@ -78,23 +78,42 @@
   "keranjangs": [],
   "pesanans": [
     {
-      "nama": "Ikhsan",
-      "noMeja": "3",
+      "noAntrian": "1",
+      "nama": "irma",
       "keranjangs": [
         {
-          "jumlah_pemesanan": "1",
-          "keterangan": "Banyakin",
+          "jumlah_pemesanan": "4",
           "products": {
-            "id": 1,
-            "kode": "K-01",
-            "nama": "Kripik Pisang",
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Kripik Pedas",
             "harga": 12000,
             "is_ready": true,
-            "gambar": "k_pisang.jpeg"
+            "gambar": "k_pedes.jpeg"
           },
           "id": 1
         }
-      ]
+      ],
+      "id": 1
+    },
+    {
+      "noAntrian": "1",
+      "nama": "ikhsan",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "6",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Kripik Balado",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "k_balado.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
     }
   ]
 }

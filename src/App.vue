@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <div class="background">
     <router-view />
     <Footer />
+    </div>
   </div>
 </template>
 
@@ -15,3 +17,9 @@ export default {
   },
 };
 </script>
+<style>
+.background {
+  background-image: url("@/assets/images/background.jpg");
+  /* Atur properti latar belakang lainnya jika diperlukan */
+}
+</style>

@@ -103,8 +103,12 @@
               <input type="text" class="form-control" v-model="pesan.nama" />
             </div>
             <div class="form-group">
-              <label for="noMeja">Nomor Meja :</label>
-              <input type="text" class="form-control" v-model="pesan.noMeja" />
+              <label for="noAntrian">Nomor Antrian : {{ currentNumber }}</label>
+              <input
+                type="text"
+                class="form-control"
+                v-model="pesan.noAntrian"
+              />
             </div>
 
             <button
@@ -134,7 +138,11 @@ export default {
   data() {
     return {
       keranjangs: [],
-      pesan: {},
+      pesan: {
+        noAntrian: 0, // Nomor antrian
+        nama: '', // Nama pelanggan
+      },
+      currentNumber: 0, // Nomor antrian saat ini
     };
   },
   methods: {
@@ -161,7 +169,7 @@ export default {
         .catch((error) => console.log(error));
     },
     checkout() {
-      if (this.pesan.nama && this.pesan.noMeja) {
+      if (this.pesan.nama && this.pesan.noAntrian) {
         this.pesan.keranjangs = this.keranjangs;
         axios
           .post("http://localhost:3000/pesanans", this.pesan)
@@ -183,13 +191,17 @@ export default {
           })
           .catch((err) => console.log(err));
       } else {
-        this.$toast.error("Nama dan Nomor Meja Harus diisi", {
+        this.$toast.error("Nama Harus diisi", {
           type: "error",
           position: "top-right",
           duration: 3000,
           dismissible: true,
         });
       }
+    },
+    nextNumber() {
+      this.currentNumber++; // Meningkatkan nomor antrian
+      this.pesan.noAntrian = this.currentNumber; // Mengupdate nomor antrian pada objek pesan
     },
   },
   mounted() {
