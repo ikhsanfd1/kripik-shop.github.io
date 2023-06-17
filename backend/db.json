@@ -1,0 +1,119 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Kripik Pisang",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_pisang.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Kripik Pedas",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_pedes.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Kripik Bawang",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_bawang.jpeg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Kripik Pisang",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_pisang.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Kripik Pedas",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_pedes.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Kripik Bawang",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_bawang.jpeg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Kripik Balado",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_balado.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Kripik Keju",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_keju.jpeg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Kacang Koro",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "k_koro.jpeg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "noAntrian": "1",
+      "nama": "irma",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "4",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Kripik Pedas",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "k_pedes.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "noAntrian": "1",
+      "nama": "ikhsan",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "6",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Kripik Balado",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "k_balado.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
