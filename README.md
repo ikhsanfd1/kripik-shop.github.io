@@ -1,5 +1,10 @@
 # kripik-oi
 
+## Project Vue used
+```
+Vue Version @2.7.14
+Vue Toast Notification @1.0
+```
 ## Project setup
 ```
 npm install
