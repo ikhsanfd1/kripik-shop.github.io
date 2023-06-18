@@ -31,6 +31,8 @@ npm run build
 ```
 npm run lint
 ```
+## Demo / Screenshot
+![Login Page](https://github.com/sandyh90/Codeigniter3-absen-digital/blob/master/images-demo/Screenshot_2021-02-03%20Login%20Absensi.png)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
