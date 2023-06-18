@@ -32,7 +32,7 @@ npm run build
 npm run lint
 ```
 ## Demo / Screenshot
-![Login Page](https://github.com/sandyh90/Codeigniter3-absen-digital/blob/master/images-demo/Screenshot_2021-02-03%20Login%20Absensi.png)
+![Dashboard Page][(https://github.com/sandyh90/Codeigniter3-absen-digital/blob/master/images-demo/Screenshot_2021-02-03%20Login%20Absensi.png)](https://github.com/ikhsanfd1/kripik-shop.github.io/blob/master/public/Screenshot%20(82).png)https://github.com/ikhsanfd1/kripik-shop.github.io/blob/master/public/Screenshot%20(82).png
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
