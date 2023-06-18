@@ -33,6 +33,7 @@ npm run lint
 ```
 ## Demo / Screenshot
 ![Dashboard Page][( https://github.com/ikhsanfd1/kripik-shop.github.io/blob/master/public/Screenshot%20(82).png
+![Menu Page] https://github.com/ikhsanfd1/kripik-shop.github.io/blob/master/public/Screenshot%20(83).png
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
